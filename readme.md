@@ -3,12 +3,12 @@ This will give you a VM, NSG and so on.
 
 Unfortunately the guest configuration is manual. Time permitting, I would have done something with chef, Azure extensions or a gold image kind of thing, depending on requirements.
 
-Install postgres and go on the guest:
-# apt update
-# apt upgrade
-# apt install postgresql
+Install postgres and go on the guest by running the following as root:
+ apt update
+ apt upgrade
+ apt install postgresql
 
-The version of go that is current for Ubuntu doesn't work with the app, so:
+The version of go that is current for Ubuntu doesn't work with the app, so run the following as a regular user:
 
 $ wget https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz
 $ tar xf ~/go1.13.3.linux-amd64.tar.gz
