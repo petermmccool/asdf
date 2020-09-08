@@ -10,9 +10,9 @@ Install postgres and go on the guest by running the following as root:
 
 The version of go that is current for Ubuntu doesn't work with the app, so run the following as a regular user:
 
-$ wget https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz
-$ tar xf ~/go1.13.3.linux-amd64.tar.gz
-$ export PATH=$PATH:~/go/bin
+ wget https://dl.google.com/go/go1.13.3.linux-amd64.tar.gz
+ tar xf ~/go1.13.3.linux-amd64.tar.gz
+ export PATH=$PATH:~/go/bin
 
 Then clone and build the app. Use the conf.toml in this repo.
 Set the password for postgres (to something other than the default :)
