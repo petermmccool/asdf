@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "sites_ulhjgkj_name": {
+            "value": null
+        },
+        "virtualMachines_MyAwesomeVM_name": {
+            "value": null
+        },
+        "virtualMachines_MyAwesomeVM_ssh_key": {
+           "value": null
+	},
+        "serverfarms_ASP_MyAwesomeRG_b5be_name": {
+            "value": null
+        },
+        "networkInterfaces_myawesomevm820_name": {
+            "value": null
+        },
+        "publicIPAddresses_MyAwesomeVM_ip_name": {
+            "value": null
+        },
+        "virtualNetworks_MyAwesomeRG_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_MyAwesomeVM_nsg_name": {
+            "value": null
+        }
+    }
+}
